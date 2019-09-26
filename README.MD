@@ -4,7 +4,7 @@ This repository is created in the interest to train my js solving simple tasks.
 
 ### Description for this tasks ####
 ___
-#### [Abbreviation](./Abbreviation) ####
+- #### [Abbreviation](./Abbreviation) ####
 ##### [Abbreviate a Two Word Name](https://www.codewars.com/kata/abbreviate-a-two-word-name/javascript) #####
 ___
 >Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
@@ -14,15 +14,15 @@ ___
     
     Patrick Feeney => P.F
 ___
-#### [FirstLetter](./FirstLetter) ####
+- #### [FirstLetter](./FirstLetter) ####
 >Реализуйте функцию, которая делает заглавной первую букву каждого слова в предложении.
 
    ```js
    solution('hello, world!'); // Hello, World!
    ```
 ___
-#### [RomanNumbers](./RomanNumbers) ####
-### [Roman Numerals Decoder](https://www.codewars.com/kata/roman-numerals-decoder) ###
+- #### [RomanNumbers](./RomanNumbers) ####
+##### [Roman Numerals Decoder](https://www.codewars.com/kata/roman-numerals-decoder) #####
 ___
 >Create a function that takes a Roman numeral as its argument and returns its value as a numeric decimal integer. You don't need to validate the form of the Roman numeral.
 
@@ -44,7 +44,7 @@ ___
 
 *Courtesy of rosettacode.org*
 ___
-### [Comparers](./Comparers) ###
+- #### [Comparers](./Comparers) ####
 >Функции **lessThan**, **greaterThan** и **isEqual** в модуле **comparers** сравнивают две строки и возвращают **true/false**.
 
 >Сравнение идет по количеству заглавных символов в строке (больше заглавных — больше строка).
@@ -69,8 +69,8 @@ ___
  <li>Иначе возвращается 0.</li>
  
  ___
- #### [findMultiples](./findMultiples) ####
- ### [Find Multiples of a Number](https://www.codewars.com/kata/find-multiples-of-a-number/javascript) ###
+ - #### [findMultiples](./findMultiples) ####
+ ##### [Find Multiples of a Number](https://www.codewars.com/kata/find-multiples-of-a-number/javascript) #####
  ___
  > In this simple exercise, you will build a program that takes a value, `integer`, 
  >and returns a list of its multiples up to another value, `limit`. 
@@ -81,3 +81,20 @@ ___
  >For example, if the parameters passed are `(2, 6)`, the function should return `[2, 4, 6]` as 2, 4, and 6 are the multiples of 2 up to 6.
  
  >If you can, try writing it in only one line of code.
+___
+- #### [addDigits](./addDigits) ####
+>Реализуйте и экспортируйте по умолчанию функцию **addDigits**, которая работает следующим образом:
+     
+>Дано неотрицательное целое число **num**. Складывать все входящие в него цифры до тех пор, пока не останется одна цифра.
+     
+ >Для числа **38** процесс будет выглядеть так:
+
+    1. 3 + 8 = 11
+    2. 1 + 1 = 2
+   `Результат: 2`
+>Пример:
+   
+    addDigits(10); // 1
+    addDigits(19); // 1
+    addDigits(38); // 2
+    addDigits(1259); // 8 
