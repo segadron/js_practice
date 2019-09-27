@@ -44,7 +44,7 @@ ___
 
 *Courtesy of rosettacode.org*
 ___
-- #### [Comparers](./Comparers) ####
+- #### [Comparers](./comparers) ####
 >Функции **lessThan**, **greaterThan** и **isEqual** в модуле **comparers** сравнивают две строки и возвращают **true/false**.
 
 >Сравнение идет по количеству заглавных символов в строке (больше заглавных — больше строка).
